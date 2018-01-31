@@ -4,3 +4,7 @@ body {
 	background: black;
 	color: white;
 }
+
+.diagonal-linear {
+	background: linear-gradient(black, white);
+}
