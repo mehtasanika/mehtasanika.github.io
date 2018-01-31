@@ -1,10 +1,20 @@
-body {
-	font-family: 'Adobe Garamond', serif;
-	font-size: 20pt;
-	background: black;
+html {
+	width:100%; height: 100%; background: linear-gradient(black, gray);
+	font-family: 'Bodoni 72', serif;
+	font-size: 18pt;
 	color: white;
+	letter-spacing: 3px;
 }
 
-.diagonal-linear {
-	background: linear-gradient(black, white);
+ul {
+	font-size: 40px; 
+	color: white;
+	font-family: 'Geneva', sans-serif;
+	letter-spacing: 1px;
+}
+li {
+	font-size: 40px; 
+	color: white;
+	font-family: 'Geneva', sans-serif;
+	letter-spacing: 1px;
 }
