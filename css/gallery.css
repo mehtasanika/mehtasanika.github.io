@@ -1,81 +1,71 @@
 body {
-	width:100%; 
-	height: 100%;
+	width:auto; 
+	height: 640px;
 }
 
 h1 {	
 	font-family: 'Arial', sans-serif;
-	font-size: 50pt;
-	margin-left: 500px;
+	font-size: 40pt;
+	margin-left: 200px;
 }
 
 h2 {
 	font-family: 'Arial', sans-serif;
-	font-size: 30pt;
-	margin-left: 500px;
+	font-size: 20pt;
+	margin-left: 200px;
 
 }
 
 
 .image1 {
-	height: 50px;
-	width: 70px;
-	margin-top: 300px;
+	margin-top: 200px;
+	margin-left: 50px;
 	float: left;
 }
 
 .image2 {
-	height: 70px;
-	width: 90px;
-	margin-top: 950px;
-	margin-left: -160px;
+	margin-top: 550px;
+	margin-left: -250px;
 	float: left;
 }
 
 .image5 {
-	height: 70px;
-	width: 90px;
-	margin-top: 1800px;
-	margin-left: -60px;
+	margin-top: 880px;
+	margin-left: -250px;
 	float: left;
 }
 
 .image7 {
-	height: 90px;
-	width: 100px;
-	margin-top: 2500px;
-	margin-left: -180px;
+	margin-top: 1170px;
+	margin-left: -250px;
 	float: left;
 }
 
 .image3 {
-	width: 70px;
-	height: 90px;
-	margin-left: 100px;
-	margin-top: 350px;
+	margin-top: 200px;
+	margin-left: 50px;
+	margin-right: 170px;
 	float: right;
 }
 
 .image4 {
-	width: 30px;
-	height: 50px;
-	margin-top: 900px;
+	margin-top: 60px;
+	margin-left: 200px;
+	margin-right: 170px;
 	float:right;
 }
 
 .image6 {
-	width: 70px;
-	height: 90px;
-	margin-top: 1770px;
+	margin-top: 20px;
 	margin-left: 100px;
+	margin-right: 180px;
 	float: right;
 }
 
 .image8 {
-	width: 70px;
-	height: 90px;
-	margin-top: 2500px;
-	margin-left: 50px;
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 80px;
 	float: right;
 }
 
