@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <script src="jquery-3.3.1.min.js"></script>
     <title>Core Interaction Studio</title>
     <style>
       html{
@@ -25,6 +24,10 @@
         font-style: black; 
         font-size: 50pt; 
         color: black;
+      }
+
+      img {
+        border: 1px solid black; 
       }
 
       .boxes div {
@@ -59,19 +62,18 @@
     
   <div class = "boxes">
 
-    <div id = "box1">
-    <img style="width: 250px; height: 250px;" src="hammimage.jpg">
+    <div id = 'opt1' class='wrong'>
+    <img id='ham' style="width: 250px; height: 250px;" src="hammimage.jpg">
     <h2>HAM</h2>
     </div>
 
-    <div id = "box2">
-    <img style="width: 250px; height: 250px;" src="GoatImage.jpg">
+    <div id = 'opt2' class='wrong'>
+    <img id='goat' style="width: 250px; height: 250px;" src="GoatImage.jpg">
     <h2>GOAT</h2>
     </div>
 
-
-    <div id = "box3">
-    <img style="width:250px;height:250px;" src="mouse.jpg">
+    <div id = 'opt3' class='right'>
+    <img id='mouse' style="width:250px;height:250px;" src="mouse.jpg">
     <h2>MOUSE</h2>
     </div>
 
@@ -80,6 +82,6 @@
   <a href="game4result.html" style="text-decoration: none;">
     <div id="button"><h2 style="text-align: center;">NEXT</h2></div>
   </a>
-
+  <script src="test.js"></script>
   </body>
 </html>
