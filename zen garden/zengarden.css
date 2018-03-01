@@ -1,0 +1,154 @@
+html {
+	background-color: #E6E6FA;
+	background-repeat: no-repeat;
+	}
+body { 
+	font-family: Didot, sans-serif;
+	}
+[role=banner] {
+	font-size: 30pt;
+	font-style: bold;
+	width: 100%;
+	height: 150px;
+	background: #79CDCD;
+	margin-top: 50px;
+}
+h1 {
+	margin-top: 10px;
+}
+h3 {
+	font-family: Times New Roman;
+	font-size: 20pt;
+
+}
+.summary {
+	font-family: Avenir;
+	width: 500px;
+	height: 100px;
+	background: #ccf2ff;
+	margin-top: -60px;
+	text-align: center;
+	margin-left: 400px;
+}
+.summary p {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.preamble {
+	font-family: Avenir;
+	width: 600px;
+	height: 300px;
+	background: white;
+	margin-top: 50px;
+	text-align: center;
+}
+.preamble p {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.explanation {
+	font-family: Avenir;
+	width: 650px;
+	height: 400px;
+	background: #adebad;
+	margin-top: -327px;
+	text-align: center;
+	margin-left: 620px;
+}
+.explanation p {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+
+}
+.participation {
+	font-family: Avenir;
+	width: 650px;
+	height: 400px;
+	background: white;
+	margin-top: 10px;
+	text-align: center;
+	margin-left: 620px;
+}
+.participation p {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.benefits {
+	font-family: Avenir;
+	width: 600px;
+	height: 200px;
+	background: #adebad;
+	margin-top: -520px;
+	text-align: center;
+	margin-left: 1px;
+}
+.benefits p{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+.requirements {
+	font-family: Avenir;
+	width: 600px;
+	height: 690px;
+	background: white;
+	margin-top: 10px;
+	text-align: center;
+}
+.requirements p {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.sidebar {
+	font-family: Avenir;
+	width: 650px;
+	height: 500px;
+	background: #adebad;
+	margin-top: -520px;
+	text-align: center;
+	margin-left: 620px;
+}
+footer {
+	font-family: Avenir;
+	width: 600px;
+	height: 100px;
+	background: #ccf2ff;
+	margin-top: 10px;
+	text-align: center;
+	margin-left: 0px;
+	font-size: 20pt;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: purple;
+}
+ul {
+	list-style-type: none;
+}
+.design-selection {
+	width: 350px;
+	height: 250px;
+	background-color: #FFFFCC;
+	margin-left: 10px;
+	margin-top: -385px;
+}
+.zen-resources {
+	width: 270px;
+	height: 250px;
+	background-color: #FFFFCC;
+	margin-left: 370px;
+	margin-top: -478px;
+	text-align: center;
+	font-size: 14pt;
+}
+.design-archives {
+	width: 650px;
+	height: 100px;
+	background-color: #FFFFCC;
+	font-size: 12pt;
+	margin-top: 100px;
+}

@@ -1,0 +1,213 @@
+.vl {
+    border: 40px solid black;
+    height: 340px;
+    position: absolute;
+    left: 65%;
+    top: 5;
+}
+.hl {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 5;
+    transform: rotate(90deg);
+
+}
+.vl2 {
+    border:40px solid black;
+    height: 340px;
+    position: absolute;
+    left: 35%;
+    top: 5;
+}
+.o {
+	border: 60px solid black;
+	height: 300px;
+	width: 270px;
+}
+.verticallineu {
+	border: 40px solid black;
+    height: 300px;
+    width: 0px;
+    left: 65%;
+    margin-top: 40px;
+
+}
+.horizontallineu {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top:-200px;
+    transform: rotate(90deg);
+}
+.verticallineu2 {
+	border: 40px solid black;
+    height: 330px;
+    width: 0px;
+    margin-left: 350px;
+    margin-top: -380px;
+
+}
+.hlc {
+	border: 40px solid black;
+    height: 330px;
+    position: absolute;
+    margin-left: 670px;
+    top: 50%;
+    transform: rotate(90deg);
+}
+.vlc {
+	border: 40px solid black;
+    height: 320px;
+    width: 0px;
+    margin-left: 450px;
+    margin-top: -404px;
+}
+.hlc2 {
+	border: 40px solid black;
+    height: 330px;
+    position: absolute;
+    margin-left: 670px;
+    top: 102%;
+    transform: rotate(90deg);
+}
+.vla {
+	border: 40px solid black;
+    height: 300px;
+    width: 0px;
+    left: 65%;
+    margin-top: 60px;
+}
+.hla {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top:-530px;
+    transform: rotate(90deg);
+}
+.vla2 {
+	border: 40px solid black;
+    height: 300px;
+    width: 0px;
+    margin-left: 300px;
+    margin-top: -380px;
+}
+.hla2 {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top:-380px;
+    transform: rotate(90deg);
+}
+.vll {
+	border: 40px solid black;
+    height: 300px;
+    width: 0px;
+    margin-left: 450px;
+    margin-top: -380px;
+}
+.hll {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top:-230px;
+    transform: rotate(90deg);
+}
+.vle {
+	border: 40px solid black;
+    height: 300px;
+    width: 0px;
+    left: 65%;
+    margin-top: 70px;
+}
+.hle {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top:-530px;
+    transform: rotate(90deg);
+}
+.hle2 {
+	border: 40px solid black;
+    height: 200px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top:-320px;
+    transform: rotate(90deg);
+}
+.hle3 {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top:-210px;
+    transform: rotate(90deg);
+}
+.vlf {
+	border: 40px solid black;
+    height: 320px;
+    width: 0px;
+    margin-left: 450px;
+    margin-top: -380px;
+
+}
+.hlf {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top:-550px;
+    transform: rotate(90deg);
+}
+.hlf2 {
+	border: 40px solid black;
+    height: 200px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top:-350px;
+    transform: rotate(90deg);
+}
+.vlt {
+	border: 40px solid black;
+    height: 300px;
+    width: 0px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.hlt {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top:-530px;
+    transform: rotate(90deg);
+}
+.hli {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top:-200px;
+    transform: rotate(90deg);
+}
+.vli {
+	border: 40px solid black;
+    height: 250px;
+    width: 0px;
+    margin-left: 650px;
+    margin-top: -330px;
+}
+.hli2 {
+	border: 40px solid black;
+    height: 300px;
+    position: absolute;
+    margin-left: 650px;
+    margin-top:-230px;
+    transform: rotate(90deg);
+}
