@@ -1,0 +1,49 @@
+html {
+	width: 100%; height: 100%;
+	font-family: 'Bodoni 72', serif;
+	font-size: 18pt;
+	letter-spacing: 4px;
+	font-color: black;
+	text-align: center;
+	background-image: url('../flowerbackground.jpeg');
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    margin-left: 100px;
+}
+
+li a {
+    display: inline;
+    color: white;
+    padding: -30px;
+    text-align: center;
+    text-decoration: none;
+    font-color: #;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#box {
+	width: 500px;
+	height: 200px;
+	background-color: #E8E8E8;
+	margin-top: 150px;
+	margin-left: 370px;
+	font-family: 'Times New Roman', serif;
+	font-size: 25pt;
+	letter-spacing: 4px;
+	color: black;
+}
