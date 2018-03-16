@@ -1,0 +1,189 @@
+/* @import url('https://fonts.googleapis.com/css?family=Work+Sans'); */
+
+/*
+ * font-family: 'Work Sans', sans-serif;
+ */
+
+ html {
+   height: 100%;
+ }
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Work Sans', serif;
+  flex: 1;
+  height: 100%;
+  min-height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #fff;
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.section svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-1 {
+  background: #D764A5;
+}
+
+#section-2 {
+  background: #C73E8B;
+}
+#section-2 {
+}
+
+#section-3 {
+  background: #BC1A76;
+}
+
+#section-4 {
+  background: #98095A;
+}
+
+#section-5 {
+  background: #780044;
+}
+
+.log {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 20;
+}
+
+.log h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.log h5 {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 0;
+}
+
+.box {
+  background: grey;
+  width: 2rem;
+  height: 2rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  mix-blend-mode: lighten;
+}
+
+.red {
+  background-color: #FF324A;
+}
+
+.green {
+  background-color: #31FFA6;
+}
+
+.blue {
+  background-color: #206EFF;
+}
+
+.yellow {
+  background-color: #FFFF99;
+}
+
+
+.button {
+  background: #2B2D2F;
+  border: 0;
+  color: #fff;
+  font-family: 'Work Sans';
+  height: 80px;
+  width: 250px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 4px;
+  -webkit-appearance: none;
+}
+.button:focus {
+  outline: none;
+}
+.progress-bar {
+  position: absolute;
+  height: 0;
+  width: 0;
+  right: 0;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  border-radius: 200px;
+  transform: translateY(-50%) translateX(-50%);
+  background: #71DFBE;
+  z-index: 15;
+}
+
+.button3 {
+  width: 200px;
+  height: 100px;
+  background: #CC99FF;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 50px;
+  border-radius: 50%;
+  border: 2px solid purple;
+}
+
+.button3 h1 {
+  margin-top: 30px;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background: #FF99CC;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background: #FF99CC;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.play {
+  border : solid #CC99FF 2px;
+  background: pink ;
+  margin-top: 150px;
+}
+
+.pause {
+  border : solid #CC99FF 2px;
+  background: pink ;
+}
+
+.restart {
+  border : solid #CC99FF 2px;
+  background: pink ;
+}
