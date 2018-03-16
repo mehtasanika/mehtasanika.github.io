@@ -1,0 +1,29 @@
+html {
+	background-image: url('sunset.jpg');
+	background-repeat: no-repeat;
+	background size: contain;
+	width: 100%;
+	height: 100%;
+}
+
+.main {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 25pt;
+	color: white;
+}
+
+.waves {
+	font-family: 'Apple Chancery';
+}
+.move {
+	font-family: 'Georgia';
+	font-style: italic;
+}
+.rhythm {
+	font-family: 'Cochin';
+	font-style: italic;
+}
+.free {
+	font-family: 'Snell Roundhand';
+}

@@ -1,0 +1,11 @@
+html {
+	background-image: url(pastelbackgroundcopy.jpg);
+}
+
+div {
+	font-family: 'Didot';
+	font-size: 200pt;
+	font-style: bold;
+	color: black;
+	text-align: center;
+}
