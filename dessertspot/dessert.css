@@ -40,7 +40,39 @@ li a:hover {
 	color: #FF9999 ;
 }
 
-#images {
-	margin-top: 30px;
-	padding: 30px;
+.carousel-inner {
+	position: absolute;
+	z-index: 300;
 }
+
+/*.css-carousel {
+	overflow: hidden;
+}
+
+.css-carousel .css-img {
+	position: absolute;
+	opacity: 0;
+	-webkit-animation-name: css-animation-fade;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteraction-count: infinite;
+}
+
+.css-carousel .css-img: nth-child(2){
+	-webkit-animation-delay: 5s;
+}
+
+.css-carousel .css-img: nth-child(3){
+	-webkit-animation-delay: 10s;
+}
+
+.css-carousel .css-img: nth-child(4){
+	-webkit-animation-delay: 15s;
+}
+
+@-webkit-keyframes css-animation-fade {
+	from {opacity:0;}
+	5% {opacity: 1;}
+	15% {opacity: 1;}
+	20% {opacity: 0;}
+	to {opacity: 0;}
+}*/
