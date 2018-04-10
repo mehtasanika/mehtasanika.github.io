@@ -1,0 +1,26 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.rectangle {
+	width: 100%;
+	height: 200px;
+	background: rgb(244,161,131);
+}
+
+img {
+	margin-left: -80px;
+	margin-top: -265px;
+}
+
+h1 {
+	font-family: 'Avenir';
+	font-size: 75pt;
+	font-style: bold;
+	color: white;
+	text-align: left;
+	margin-left: 830px;
+	margin-top: -190px;
+
+}
