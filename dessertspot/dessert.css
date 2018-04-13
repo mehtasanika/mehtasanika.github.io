@@ -23,14 +23,14 @@ body {
 	margin-left: 100px;
 }
 
-.list1 a:hover {
-	color: white ;
+.list1 a: hover {
+	color: white;
 }
 
 img {
 	position: relative;
-	margin-left: 300px;
-	margin-top: -80px;
+	margin-left: -70px;
+	margin-top: -185px;
 }
 
 .list2 {
@@ -41,7 +41,7 @@ img {
 	width: 230px;
 	height:100%;
 	position: relative;
-	margin-top: -600px;
+	margin-top: -80px;
 	font-family: 'Avenir';
 	font-size: 30pt;
 }
@@ -49,7 +49,7 @@ img {
 .list2 li a {
 	display: block;
 	color: #000;
-	padding: 8px 16px;
+	padding: 9px 16px;
 	text-decoration: none;
 }
 
@@ -58,7 +58,67 @@ img {
 	color: white;
 }
 
-/*.carousel-inner {
+.square {
+	width: 1030px;
+	height: 415px;
+	background: white;
+	margin-left: 230px;
+	margin-top: -380px;
+}
+
+.square img {
+	font-family:'Avenir';
+	font-size: 30pt;
+	padding-top: 120px;
+	padding-right: 220px;
+}
+
+.square2 img {
+	margin-left: 580px;
+	margin-top: -430px;
+}
+
+/*.button1 h2	{
+	text-align: center;
+	font-family: 'Baskerville';
+	font-size: 26pt;
+	font-style: italic;
+	color: white;
+
+}
+
+.button2 h2 {
+	text-align: center;
+	font-family: 'Baskerville';
+	font-size: 26pt;
+	font-style: italic;
+	color: white;
+}
+
+.button3 h2 {
+	text-align: center;
+	font-family: 'Baskerville';
+	font-size: 26pt;
+	font-style: italic;
+	color: white;
+}*/
+
+
+/*.rectangle {
+	width: 100%;
+	height: 500px;
+	background: #FF9999;
+	margin-top: 20px;
+}
+*/
+/*.carousel-inner img{
+	height:400px;
+	width: 1200px;
+	margin-left: 30px;
+	margin-top: -420px;
+}
+
+.carousel-inner {
 	position: absolute;
 	z-index: 300;
 }*/

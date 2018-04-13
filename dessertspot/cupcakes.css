@@ -23,3 +23,28 @@ h1 {
 	margin-left: 850px;
 	margin-top: -190px;
 }
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #ff9933;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 500px;
+  margin-top: 150px;
+}
+
+.button: hover {
+	background-color: #3E8E41;
+}
+
+.button: active {
+	background-color: #3E8E41;
+	box-shadow: 0 5px #666;
+  	transform: translateY(4px);
+}
