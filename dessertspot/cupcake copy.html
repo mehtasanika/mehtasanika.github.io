@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DessertSpot</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="cupcakes.css">
+</head>
+<body>
+	<div class="rectangle"></div>
+	<img src="DessertSpotlogo.svg" width="350px" height="350px">
+	<h1>cupcakes</h1>
+	<body style="text-align:center">
+
+	<div class="popup" onclick="myFunction()">SELECT A LOCATION
+	  <span class="popuptext" id="myPopup">
+	  	<ul style="list-style-type: none">
+	  		<li><a style="text-decoration: none;" href="unionsquare.html"><center>Union Square</center></a></li>
+	  		<p></p>
+	  		<p></p>
+	  		<p></p>
+	  		<p></p>
+	  		<li>
+	  			<a style="text-decoration: none;" href="flatiron.html">
+	  				<center>
+	  					<p>Flatiron District</p>
+	  				</center>
+	  			</a>
+	  		</li>
+	  		<p></p>
+	  		<p></p>
+	  		<p></p>
+	  		<p></p>
+			<li><a style="text-decoration: none;" href="soho.html"><center>Soho</center></a></li>
+			<p></p>
+	  		<p></p>
+	  		<p></p>
+	  		<p></p>
+			<li><a style="text-decoration: none;" href="timessquare.html"><center>Times Square</center></a></li>
+			<p></p>
+	  		<p></p>
+	  		<p></p>
+	  		<p></p>
+	  		<li><a style="text-decoration: none;" href="chinatown.html"><center>Chinatown</center></a></li>
+	  		<style>
+	  			a: hover li {
+	  				color: rgb(202,184,218);
+	  				width: 40px;
+	  				height:60px;
+	  			}
+	  		</style>
+	  	</ul>
+	  </span>
+	</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
+</body>
+</html>
+

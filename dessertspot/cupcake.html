@@ -9,78 +9,42 @@
 	<div class="rectangle"></div>
 	<img src="DessertSpotlogo.svg" width="350px" height="350px">
 	<h1>cupcakes</h1>
-	<style>
-/* Popup container - can be anything you want */
-.popup {
-	padding: 15px 25px;
-  	font-size: 24px;
-  	text-align: center;
-  	cursor: pointer;
-  	outline: none;
-  	color: #fff;
-  	background-color: #ff9933;
-  	border: none;
- 	border-radius: 15px;
-  	box-shadow: 0 9px #999;
-  	margin-left: 50px;
-  	margin-top: 150px;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
+	<body style="text-align:center">
 
-/* The actual popup */
-.popup .popuptext {
-    visibility: hidden;
-    width: 600px;
-    height: 400px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
-    border-radius: 6px;
-    padding: 10px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: -270%;
-    left: -30%;
-    margin-left: -80px;
-}
+	<div class="background-image">
+		<img src="background.jpg" width="1280px" height="461px">
+	</div>
 
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
+	<div class="popup" onclick="myFunction()">SELECT A LOCATION
+	  
+	  <span class="popuptext" id="myPopup">
 
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-}
+	  	<ul style="list-style-type: none">
+	  		<li>
+	  			<a href="unionsquare.html">Union Square</a>
+	  		</li>
 
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-}
-</style>
-</head>
-<body style="text-align:center">
+	  		<li>
+	  			<a href="flatiron.html">Flatiron District</a>
+	  		</li>
 
-<div class="popup" onclick="myFunction()">SELECT A LOCATION
-  <span class="popuptext" id="myPopup">
-  	<li>Union Square</li>
-  	<li>Flatiron District</li>
-  	<li>Soho</li>
-  	<li>Times Square</li>
-  	<li>China Town</li>
-  </span>
-</div>
+			<li>
+				<a href="sohocupcakes.html">Soho</a>
+			</li>
+
+			<li>
+				<a href="timessquarecupcakes.html">Times Square</a>
+			</li>
+
+	  		<li>
+	  			<a href="chinatowncupcakes.html">Chinatown</a>
+	  		</li>
+
+	  	</ul>
+
+	  </span>
+
+	</div>
 
 <script>
 // When the user clicks on div, open the popup

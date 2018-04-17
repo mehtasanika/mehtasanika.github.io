@@ -4,10 +4,9 @@
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
-	.st1{fill:#FFFFFF;}
-	.st2{font-family:'Avenir-Roman';}
-	.st3{font-size:47px;}
-	.st4{fill:#ED2024;}
+	.st1{font-family:'Avenir-Roman';}
+	.st2{font-size:47px;}
+	.st3{fill:#ED2024;}
 </style>
 <g>
 	<g>
@@ -610,7 +609,7 @@ sQkAAABiEwAAACA2AQAAQGwCAACA2AQAAACITQAAAPjB/xdgAKA95TQ8ZxRVAAAAAElFTkSuQmCC" tr
 	</g>
 </g>
 <rect x="107.7" y="373.2" class="st0" width="199.5" height="45.5"/>
-<text transform="matrix(1 0 0 1 107.7188 408.7772)" class="st1 st2 st3">DESSERT</text>
+<text transform="matrix(1 0 0 1 107.7188 408.7772)" class="st1 st2">DESSERT</text>
 <rect x="336.1" y="373.2" class="st0" width="199.5" height="45.5"/>
-<text transform="matrix(1 0 0 1 336.1245 408.7772)" class="st4 st2 st3">SPOT</text>
+<text transform="matrix(1 0 0 1 336.1245 408.7772)" class="st3 st1 st2">SPOT</text>
 </svg>

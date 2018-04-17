@@ -9,6 +9,49 @@
 	<div class="rectangle"></div>
 	<img src="DessertSpotlogo.svg" width="350px" height="350px">
 	<h1>ice cream</h1>
-	<button class="button">SELECT A LOCATION</button>
+		<body style="text-align:center">
+
+	<div class="background-image">
+		<img src="background3.jpg" width="1280px" height="461px">
+	</div>
+
+	<div class="popup" onclick="myFunction()">SELECT A LOCATION
+	  
+	  <span class="popuptext" id="myPopup">
+
+	  	<ul style="list-style-type: none">
+	  		<li>
+	  			<a href="unionsquareic.html">Union Square</a>
+	  		</li>
+
+	  		<li>
+	  			<a href="flatironic.html">Flatiron District</a>
+	  		</li>
+
+			<li>
+				<a href="sohoicecream.html">Soho</a>
+			</li>
+
+			<li>
+				<a href="timessquareic.html">Times Square</a>
+			</li>
+
+	  		<li>
+	  			<a href="chinatownic.html">Chinatown</a>
+	  		</li>
+
+	  	</ul>
+
+	  </span>
+
+	</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
 </body>
 </html>
