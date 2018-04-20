@@ -54,8 +54,8 @@ img {
 .rectangle1 {
 	width: 1280px;
 	height: 200px;
-	background: rgb(202,184,218);
-	margin-top: -25px;
+	background: #DB7093;
+	margin-top: 75px;
 }
 
 h3 {
@@ -72,7 +72,7 @@ h3 {
 	-moz-border-radius: 100px;
 	-webkit-border-radius: 100px;
 	border-radius: 100px;
-	margin-top: 100px;
+	margin-top: -170px;
 	margin-left: 180px;
 }
 
@@ -84,7 +84,7 @@ h3 {
 	-webkit-border-radius: 100px;
 	border-radius: 100px;
 	margin-left: 600px;
-	margin-top: -130px;
+	margin-top: -150px;
 }
 
 .circle3 {
@@ -103,10 +103,11 @@ h3 {
 	height: 200px;
 	background: white;
 	margin-top: 115px;
-	font-family: 'Apple Chancery';
+	font-family: 'Avenir';
 	font-style: italic;
 	font-size: 30pt;
 	text-align: center;
-	padding-top: 80px;
+	margin-top: 20px;
+	padding-top: 50px;
 	padding-left: 20px;
 }
