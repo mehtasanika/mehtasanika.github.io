@@ -1,0 +1,66 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.rectangle {
+	width: 100%;
+	height: 200px;
+	background: rgb(202,184,218);
+}
+
+
+img {
+	margin-left: -70px;
+	margin-top: -265px;
+}
+
+h1 {
+	font-family: 'Avenir';
+	font-size: 75pt;
+	font-style: bold;
+	color: white;
+	text-align: left;
+	margin-left: 850px;
+	margin-top: -190px;
+}
+.boxes img {
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 3px;
+}
+
+#georgetown {
+	margin-left: 100px;
+}
+
+
+#magnolia {
+	margin-top: -280px;
+	margin-left: 540px;
+}
+
+#littlecupcake {
+	margin-top: -280px;
+	margin-left: 950px;
+}
+
+#molly {
+	margin-left: 105px;
+}
+
+#buttercup {
+	margin-top: -280px;
+	margin-left: 540px;
+}
+
+#mahalo {
+	margin-top: -280px;
+	margin-left: 950px;
+}
+h2 {
+	font-family:'Avenir';
+	font-size: 18pt;
+	margin-left: 37px;
+
+}

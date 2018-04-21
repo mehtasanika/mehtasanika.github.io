@@ -10,7 +10,7 @@ body {
 	background: rgb(249,178,165);
 }
 
-img {
+.logo {
 	position: absolute;
 	margin-top: -680px;
 	margin-left: -10px;
@@ -26,7 +26,8 @@ img {
 .carousel-inner {
 	width: 600px;
 	height: 600px;
-	display: inline-block;
+	margin-left: 550px;
+	margin-top: -580px;
 }
 .list2 {
 	list-style-type: none;
