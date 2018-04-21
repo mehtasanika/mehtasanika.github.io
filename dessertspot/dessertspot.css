@@ -32,6 +32,10 @@ img {
 	text-decoration: none;
 }
 
+.list2 li a:hover:not(.active) {
+	color: white;
+}
+
 .rectangle1 {
 	width: 1280px;
 	height: 200px;
