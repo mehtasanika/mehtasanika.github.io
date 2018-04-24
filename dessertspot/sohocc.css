@@ -30,7 +30,18 @@ h1 {
 	padding: 3px;
 }
 
-#jacquestorres {
+.box {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.box img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*#jacquestorres {
 	margin-left: 100px;
 }
 
@@ -43,7 +54,7 @@ h1 {
 #dominique {
 	margin-top: -290px;
 	margin-left: 950px;
-}
+}*/
 
 
 h2 {
