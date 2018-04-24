@@ -61,7 +61,17 @@ h3 {
 	margin-left: 130px;
 }
 
-.circle1: hover {
+.circle1:hover {
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+
+.circle2:hover {
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+
+.circle3:hover {
 	animation: shake 0.5s;
 	animation-iteration-count: infinite;
 }

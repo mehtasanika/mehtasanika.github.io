@@ -1,0 +1,54 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.rectangle {
+	width: 100%;
+	height: 200px;
+	background: rgb(244,161,131);
+}
+
+
+img {
+	margin-left: -70px;
+	margin-top: -265px;
+}
+
+h1 {
+	font-family: 'Avenir';
+	font-size: 75pt;
+	font-style: bold;
+	color: white;
+	text-align: left;
+	margin-left: 800px;
+	margin-top: -190px;
+}
+.boxes img {
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 3px;
+}
+
+#jacquestorres {
+	margin-left: 100px;
+}
+
+
+#vosgeshaut {
+	margin-top: -290px;
+	margin-left: 520px;
+}
+
+#dominique {
+	margin-top: -290px;
+	margin-left: 950px;
+}
+
+
+h2 {
+	font-family:'Avenir';
+	font-size: 18pt;
+	margin-left: 20px;
+
+}
