@@ -10,10 +10,10 @@ opt3.addEventListener('click', test);
 
 function test() {
   if (this.className == 'wrong') {
-    console.log('wrong');
+    console.log('wrong').unbind("click");
     sound1.play();
   } 
   else {
-    console.log('right');
+    console.log('right').bind("click");
   }
 }
