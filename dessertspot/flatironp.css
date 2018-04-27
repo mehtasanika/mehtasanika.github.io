@@ -31,35 +31,15 @@ h1 {
 	padding: 3px;
 }
 
-#patisserie {
-	margin-left: -850px;
+.box {
+	float: left;
+	width: 33%;
+	text-align: center;
 }
 
-
-#parisb {
-	margin-top: -285px;
-}
-
-#maisonkayser {
-	margin-top: -285px;
-	margin-left: 850px;
-}
-
-#thecitybakery {
-	margin-left: -850px;
-}
-
-#doughnuts {
-	margin-top: -290px;
-}
-
-#citycakes {
-	margin-left: 800px;
-	margin-top: -290px;
-}
-
-#ladym {
-	
+.box img {
+	max-width: 100%;
+	height: auto;
 }
 
 h2 {

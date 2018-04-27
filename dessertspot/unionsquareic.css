@@ -31,7 +31,26 @@ h1 {
 	padding: 3px;
 }
 
-#chloes {
+.boxes img {
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 3px;
+}
+
+.box {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.box img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/*#chloes {
 	margin-left: -900px;
 }
 
@@ -59,7 +78,7 @@ h1 {
 #dylans {
 	margin-top: -300px;
 	margin-left: 750px;
-}
+}*/
 
 
 h2 {

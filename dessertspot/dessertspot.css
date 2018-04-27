@@ -115,4 +115,12 @@ h3 {
 
 .background-image {
 	margin-top: 80px;
+	margin-left: 130px;
+}
+
+.donut img {
+	width: 350px;
+	height: 350px;
+	margin-top: 60px;
+	margin-left: 100px;
 }

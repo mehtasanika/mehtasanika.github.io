@@ -27,10 +27,21 @@ h1 {
 .boxes img {
 	margin-top: 50px;
 	margin-left: 20px;
-	padding: 3px;
+	padding: 5px;
 }
 
-#bbm {
+.box {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.box img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*#bbm {
 	margin-left: 100px;
 }
 
@@ -57,7 +68,7 @@ h1 {
 #cupcakestop {
 	margin-top: -280px;
 	margin-left: 950px;
-}
+}*/
 
 
 h2 {

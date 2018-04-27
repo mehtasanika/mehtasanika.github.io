@@ -10,7 +10,7 @@ body {
 }
 
 img {
-	margin-left: -60px;
+	margin-left: -70px;
 	margin-top: -265px;
 }
 
@@ -20,45 +20,24 @@ h1 {
 	font-style: bold;
 	color: white;
 	text-align: left;
-	margin-left: 830px;
+	margin-left: 800px;
 	margin-top: -190px;
-
 }
-
 .boxes img {
 	margin-top: 50px;
 	margin-left: 20px;
 	padding: 3px;
 }
 
-#factory {
-	margin-left: 100px;
+.box {
+	float: left;
+	width: 33%;
+	text-align: center;
 }
 
-
-#taiyaki {
-	margin-top: -315px;
-	margin-left: 540px;
-}
-
-#eggloo {
-	margin-left: 950px;
-	margin-top: -290px;
-}
-
-#below {
-	margin-top: 60px;
-	margin-left: 100px;
-}
-
-#softserve {
-	margin-top: -290px;
-	margin-left: 550px;
-}
-
-#juicyspot {
-	margin-left: 950px;
-	margin-top: -290px;
+.box img {
+	max-width: 100%;
+	height: auto;
 }
 
 h2 {

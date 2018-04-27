@@ -30,7 +30,18 @@ h1 {
 	padding: 3px;
 }
 
-#hershey {
+.box {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.box img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*#hershey {
 	margin-left: 100px;
 }
 
@@ -38,7 +49,7 @@ h1 {
 #mms {
 	margin-top: -490px;
 	margin-left: 700px;
-}
+}*/
 
 
 h2 {

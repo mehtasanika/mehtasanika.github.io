@@ -30,19 +30,15 @@ h1 {
 	padding: 3px;
 }
 
-#eataly {
-	margin-left: 100px;
+.box {
+	float: left;
+	width: 33%;
+	text-align: center;
 }
 
-
-#cm {
-	margin-top: -290px;
-	margin-left: 520px;
-}
-
-#ldc {
-	margin-top: -290px;
-	margin-left: 950px;
+.box img {
+	max-width: 100%;
+	height: auto;
 }
 
 

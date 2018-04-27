@@ -31,6 +31,23 @@ h1 {
 	padding: 3px;
 }
 
+.box {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.box img {
+	max-width: 100%;
+	height: auto;
+}
+/*
+.boxes img {
+	margin-top: 50px;
+	margin-left: 20px;
+	padding: 3px;
+}
+
 #morgenstern {
 	margin-left: 100px;
 }
@@ -58,7 +75,7 @@ h1 {
 #taiyaki {
 	margin-left: 950px;
 	margin-top: -290px;
-}
+}*/
 
 h2 {
 	font-family:'Avenir';

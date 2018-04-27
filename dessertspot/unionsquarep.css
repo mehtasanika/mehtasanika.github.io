@@ -31,18 +31,15 @@ h1 {
 	padding: 3px;
 }
 
-#breadsbakery {
-	margin-left: -850px;
+.box {
+	float: left;
+	width: 33%;
+	text-align: center;
 }
 
-
-#ldp {
-	margin-top: -285px;
-}
-
-#maisonkayser {
-	margin-top: -285px;
-	margin-left: 850px;
+.box img {
+	max-width: 100%;
+	height: auto;
 }
 
 
