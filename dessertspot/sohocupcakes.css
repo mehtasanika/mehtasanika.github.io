@@ -11,97 +11,76 @@ body {
 }
 
 
-img {
-	margin-left: -70px;
-	margin-top: -265px;
+.logo {
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+.logo img {
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	top: -30px;
+	left: -15px;
 }
 
 h1 {
+	position: relative;
 	font-family: 'Avenir';
 	font-size: 75pt;
 	font-style: bold;
 	color: white;
-	text-align: left;
-	margin-left: 850px;
-	margin-top: -190px;
+	text-align: right;
+	width: 75%;
+	float: right;
+	top: 80px;
 }
 
-.boxes img {
-	margin-top: 50px;
-	margin-left: 20px;
-	padding: 3px;
+.boxes {
+	clear: both;
 }
-
 .box {
+	position: relative;
 	float: left;
 	width: 33%;
 	text-align: center;
-	position: relative;
-
+	padding: 10px;
 }
 
 .box img {
+	opacity: 1;
+	display: block;
 	max-width: 100%;
 	height: auto;
-	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
 }
 
-/*.overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: .5s ease;
-	background-color: pink;
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box:hover img {
+  opacity: 0.2;
 }
 
 .box:hover .overlay {
-	opacity: 1;
+  opacity: 1;
 }
 
 .text {
-	color: black;
-	font-size: 20px;
-	position: absolute;
-	height: auto;
-	width: 100%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	text-align: center;
-}
-*/
-/*#georgetown {
-	margin-left: 100px;
+  color: black;
+  font-size: 16px;
 }
 
-
-#magnolia {
-	margin-top: -280px;
-	margin-left: 540px;
-}
-
-#littlecupcake {
-	margin-top: -280px;
-	margin-left: 950px;
-}
-
-#molly {
-	margin-left: 105px;
-}
-
-#buttercup {
-	margin-top: -280px;
-	margin-left: 540px;
-}
-
-#mahalo {
-	margin-top: -280px;
-	margin-left: 950px;
-}*/
 h2 {
 	font-family:'Avenir';
 	font-size: 18pt;

@@ -15,8 +15,9 @@ li {
 	display: inline;
 }
 
-img {
-	margin-top: -60px;
+.logo img {
+	margin-top: -50px;
+	margin-left: 450px;
 }
 
 .menu {
@@ -118,9 +119,25 @@ h3 {
 	margin-left: 130px;
 }
 
-.donut img {
-	width: 350px;
-	height: 350px;
-	margin-top: 60px;
-	margin-left: 100px;
+.box {
+	position: relative;
+	float: left;
+	width: 33%;
+	text-align: center;
+	padding: 5px;
+}
+
+.box img {
+	max-width: 55%;
+	height: auto;
+	margin-top: 50px;
+}
+
+
+.rectangle2 {
+	background-color: white;
+	width: 250px;
+	height: 300px;
+	margin-top: 30px;
+	margin-left: 70px;
 }
