@@ -82,11 +82,6 @@ h1 {
   font-size: 16px;
 }
 
-.box:nth-child(3n+1){
-	clear: both;
-}
-
-
 h2 {
 	font-family:'Avenir';
 	font-size: 18pt;

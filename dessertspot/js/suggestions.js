@@ -1,14 +1,14 @@
 var items = [];
 
 $("#submit").on("click", function(){
-  var name = $("#name").val()
-  var birth = $("#birth").val()
-  var age = $("#age").val()
+  var dessertplace = $("#dessertplace").val()
+  var location = $("#location").val()
+  var category = $("#category").val()
   
   items.push({
-    name: name,
-    birth: birth,
-    age: age,
+    dessertplace: dessertplace,
+    location: location,
+    category: category,
   });
   
   console.log(items);
@@ -16,9 +16,9 @@ $("#submit").on("click", function(){
   var output = $("#output");
   var temp = "";
   for(var i=0; i < items.length; i++) {
-    temp +=  "Name: " + items[i].name + "<br />"
-    + "Birthday: " + items[i].birth + "<br />"
-    + "Age: " + items[i].age + "<p />"
+    temp +=  "Dessert Place: " + items[i].dessertplace + "<br />"
+    + "Location: " + items[i].location + "<br />"
+    + "Category: " + items[i].category + "<p />"
   }
     output.html(temp);
 });

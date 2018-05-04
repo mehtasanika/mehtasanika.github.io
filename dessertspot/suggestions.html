@@ -4,34 +4,28 @@
 	<title>DessertSpot</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="suggestions.css">
-	<link rel="stylesheet" type="text/css" href="js/suggestions.js">
 </head>
 <body>
-	<div class="rectangle"></div>
-
-	<a href="dessertspot.html">
-		<img src="DessertSpotlogo.svg" width="350px" height="350px">
-	</a>
-
-	<h1>suggestions</h1>
-		<body style="text-align:center">
-
-<!-- 	<div class="background-image">
-		<img src="homebackground.jpg" width="1290px" height="609px">
-	</div> -->
+	<div class="rectangle">
+		<a href="dessertspot.html" class="logo">
+		<img src="DessertSpotlogo.svg">
+		</a>
+		<h1>suggestions</h1>
+	</div>
 
 	<div class="rectangle1">
 		<center><h3>Directions: Please plug-in your family information. Necessary for all members.</h3>
 
-		DESSERT PLACE: <input type="text" id="name"/><br></br>
-		LOCATION: <input type="text" id="birth"/><br></br>
-		CATEGORY: <input type="text" id="age"/><br></br>
+		DESSERT PLACE: <input type="text" id="dessertplace"/><br></br>
+		LOCATION: <input type="text" id="location"/><br></br>
+		CATEGORY: <input type="text" id="category"/><br></br>
 		<input type="submit" id="submit">
 
 <p id="list"></p>
 <p id="output"></p></center>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/suggestions.js"></script>
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 </html>
