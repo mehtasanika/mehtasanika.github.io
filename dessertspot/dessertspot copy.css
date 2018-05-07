@@ -61,19 +61,7 @@ h3 {
 	margin-top: -170px;
 	margin-left: 130px;
 }
-#arrow {
-	font-size: 70px;
-	margin-left: 260px;
-	position: relative;
-	top: -100px;
-}
 
-#arrow2 {
-	font-size: 70px;
-	margin-left: 270px;
-	position: relative;
-	top: -100px;
-}
 .circle1:hover {
 	animation: shake 0.5s;
 	animation-iteration-count: infinite;
@@ -132,58 +120,98 @@ h3 {
 }
 
 
-.organizer {
-	margin-top: 50px;
+
+.hc {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	top: 60px;
+	left: 220px;
 }
 
-.row{
-	display: block;
-	margin:0 auto;
-	max-width:80%;
-	overflow:hidden;
-	text-align: center;
-	margin-top: 10px;
+.text {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	top: -240px;
+	left: 620px;
 }
 
-.leftbox, .rightbox, .text{
-	width:400px;
-	height:300px;
-	overflow: hidden;
-	display: inline-block;
-	margin:0;
-	padding:0;
-	float:left;
-}
-.left{
-	margin-left: calc(50% - 400px);
-}
-.row img{
-	height:300px;
-	width:auto;
+.cc {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	top: -230px;
+	left: 620px;
 }
 
-.text{
-	background: #FFCCCC;
-	box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
+.text2 {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	top:-530px;
+	left: 220px;
 }
 
-p {
-	font-size: 40pt;
-	margin-top: 100px;
-	font-family: 'Charter';
-	color: white;
+.icc {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	top: -520px;
+	left: 220px;
 }
 
-.rectangle2 {
-	width: auto;
-	height: 200px;
-	background: #DB7093;
-	margin-top: 25px;
+.text3 {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	top: -820px;
+	left: 620px;
+}
+
+.dc {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	top: -810px;
+	left: 620px;
+}
+
+.text4 {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	top: -1110px;
+	left: 220px;
+}
+
+.hcc {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	top: -1100px;
+	left: 220px;
+}
+
+.text5 {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	position: relative;
+	top: -1400px;
+	left: 620px;
 }
 
 .boxes {
+	clear: both;
 	text-align: center;
-	margin-top: 10px;
 }
 
 .box img {
@@ -193,12 +221,52 @@ p {
 }
 .box {
 	position: relative;
+	/*float: left;*/
 	display:inline-block;
 	width: 10%;
 	text-align: center;
-	padding: 20px;
+	padding: 5px;
 }
 
 .box:nth-child(1) img{
-	margin-top:-15px;
+	border:1px solid red;
 }
+/*.donut {
+	position: relative;
+	max-width: 33%;
+	height: auto;
+	top: -1090px;
+	left: -20px;
+}
+
+.cupcake {
+	position: relative;
+	max-width: 33%;
+	height: auto;
+	top: -1120px;
+	left: -210px;
+}
+
+.icecream {
+	position: relative;
+	max-width: 33%;
+	height: auto;
+	top: -1120px;
+	left: -410px;
+}
+
+.cake {
+	position: relative;
+	max-width: 33%;
+	height: auto;
+	top: -1310px;
+	left: 640px;
+}
+
+.cookie {
+	position: relative;
+	max-width: 33%;
+	height: auto;
+	top: -1300px;
+	left: 440px;
+}*/

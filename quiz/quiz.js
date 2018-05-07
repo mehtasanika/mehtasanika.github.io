@@ -48,22 +48,23 @@ var correct = 0;
 		correct ++;
 	}
 
-var messages = ["Great job!", "That's just okay!", "You really need to get to know Parons better"];
+var messages = ["Great job!", "That's just okay!", "Do you even go to this school?"];
 
 var range;
 	if(correct < 3) {
-		messages = 2;
+		range = 2;
 	}
 
 	if (correct > 0 && correct < 5) {
-		messages = 1;
+		range = 1;
 	}
 
 	if (correct > 8) {
-		messages = 0;
+		range = 0;
 	}
 
 document.getElementById("after_submit").style.visibility = "visible";
+
 document.getElementById("message").innerHTML = messages[range];
 document.getElementById("number_correct").innerHTML = "You got " +  correct +  " correct";
 
