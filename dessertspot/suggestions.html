@@ -19,13 +19,32 @@
 		DESSERT PLACE: <input type="text" id="dessertplace"/><br></br>
 		LOCATION: <input type="text" id="location"/><br></br>
 		CATEGORY: <input type="text" id="category"/><br></br>
-		<input type="submit" id="submit">
+		<!-- <input type="submit" id="submit"> -->
+		<div class="popup" onclick="myFunction()"> 
 
+			<span>submit</span>
+	  
+		  <span class="popuptext" id="myPopup">
+		  	<img src="DessertLogo2.svg">
+			<h2>Thank you for the delicious suggestion! It will be a great addition!</h2>
+		  
+
+		  </span>
+
+		</div>
 <p id="list"></p>
 <p id="output"></p></center>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/suggestions.js"></script>
+	<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+	console.log('hi')
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
 </body>
 </html>

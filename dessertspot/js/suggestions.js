@@ -13,12 +13,12 @@ $("#submit").on("click", function(){
   
   console.log(items);
   
-  var output = $("#output");
-  var temp = "";
-  for(var i=0; i < items.length; i++) {
-    temp +=  "Dessert Place: " + items[i].dessertplace + "<br />"
-    + "Location: " + items[i].location + "<br />"
-    + "Category: " + items[i].category + "<p />"
-  }
-    output.html(temp);
+  // var output = $("#output");
+  // var temp = "";
+  // for(var i=0; i < items.length; i++) {
+  //   temp +=  "Dessert Place: " + items[i].dessertplace + "<br />"
+  //   + "Location: " + items[i].location + "<br />"
+  //   + "Category: " + items[i].category + "<p />"
+  // }
+  //   output.html(temp);
 });

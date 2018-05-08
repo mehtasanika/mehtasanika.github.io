@@ -1,6 +1,6 @@
 body {
-	width: 100%;
-	height: 100%;
+	margin: 0;
+	padding: 0;
 	background: rgb(249,170,165);
 }
 
@@ -14,11 +14,11 @@ ul {
 li {
 	display: inline;
 }
-
-.logo img {
-	margin-top: -70px;
-	margin-left: 450px;
+.logo{
+	text-align: center;
+	margin-top: -50px;
 }
+
 
 .menu {
 	font-family: 'Charter';
@@ -38,7 +38,10 @@ li {
 }
 
 .rectangle1 {
-	width: 1280px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 	height: 200px;
 	background: #DB7093;
 	margin-top: 2px;
@@ -51,21 +54,9 @@ h3 {
 	padding-top: 50px;
 }
 
-.circle1 {
-	width: 150px;
-	height: 150px;
-	background: white;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
-	margin-top: -170px;
-	margin-left: 130px;
-}
 #arrow {
 	font-size: 70px;
-	margin-left: 260px;
 	position: relative;
-	top: -100px;
 }
 
 #arrow2 {
@@ -74,6 +65,20 @@ h3 {
 	position: relative;
 	top: -100px;
 }
+.rectangle1{
+	text-align: center;
+}
+.circle1, .circle2, .circle3{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: white;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	margin: 0 80px;
+}
+
 .circle1:hover {
 	animation: shake 0.5s;
 	animation-iteration-count: infinite;
@@ -101,29 +106,6 @@ h3 {
   	80% { transform: translate(-1px, -1px) rotate(1deg); }
   	90% { transform: translate(1px, 2px) rotate(0deg); }
   	100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-
-.circle2 {
-	width: 150px;
-	height: 150px;
-	background: white;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
-	margin-left: 550px;
-	margin-top: -150px;
-}
-
-.circle3 {
-	width: 150px;
-	height: 150px;
-	background: white;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: -120px;
-	margin-left: 1000px;
-	margin-top: -150px;
 }
 
 .background-image {
@@ -174,11 +156,33 @@ p {
 	color: white;
 }
 
+.logo2 {
+	position: relative;
+  max-width: 100%;
+  width: auto;
+  height: 35vh;
+  top: 0;
+  left: 0;
+}
+
 .rectangle2 {
-	width: auto;
+	width: 100%;
 	height: 200px;
 	background: #DB7093;
 	margin-top: 25px;
+	display: block;
+}
+
+ h4 {
+ 	position: relative;
+	font-family: 'Charter';
+	font-size: 13pt;
+	text-align: center;
+	text-align: left;
+	float: right;
+	width: 75%;
+	top: 50px;
+	line-height: 26px;
 }
 
 .boxes {
@@ -201,4 +205,67 @@ p {
 
 .box:nth-child(1) img{
 	margin-top:-15px;
+}
+
+@media (max-width: 768px) {
+	.row{
+		max-width:90%;
+		margin-top: 10px;
+	}
+
+	.circle1, .circle2, .circle3 {
+		margin: 0 20px;
+		width: 100px;
+		height: 100px;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+	}
+
+	h3 {
+		font-size: 10pt;
+		padding-top: 40px;
+	}
+
+	.leftbox, .rightbox, .text{
+		width:100%;
+		height:300px;
+		display: block;
+		margin:0;
+		padding:0;
+		float:none;
+	}
+	.left{
+		margin-left: auto;
+	}
+	.row img{
+		height:300px;
+	}
+
+	.logo2 {
+		height: 20vh;
+		top: 25px;
+		left: -10px;
+		top: 40px;
+	}
+
+	h4 {
+		font-size: 10px;
+		line-height: 15px;
+		left: 10px;
+		top: -70px;
+	}
+
+	.box img {
+	width: 50%;
+}
+	.box {
+	width: 26%;
+	padding: 2px;
+}
+
+.box:nth-child(1) img{
+	margin-top:-5px;
+}
+	
 }
