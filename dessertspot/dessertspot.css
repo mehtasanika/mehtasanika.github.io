@@ -145,7 +145,7 @@ h3 {
 }
 
 .text{
-	background: #FFCCCC;
+	background: #FF6699;
 	box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
 }
 
@@ -153,6 +153,7 @@ p {
 	font-size: 40pt;
 	margin-top: 100px;
 	font-family: 'Charter';
+	font-style: italic;
 	color: white;
 }
 
@@ -185,9 +186,15 @@ p {
 	line-height: 26px;
 }
 
+.slogan p {
+	text-align: center;
+	font-size: 17pt;
+	position: relative;
+}
+
 .boxes {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: -10px;
 }
 
 .box img {
