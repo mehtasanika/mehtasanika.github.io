@@ -48,18 +48,22 @@ var correct = 0;
 		correct ++;
 	}
 
+	if (question10 == "New York") {
+		correct ++;
+	}
+
 var messages = ["You really know your school!", "Come on! You can do better than that!", "Do you even go to this school?"];
 
 var range;
-	if(correct < 4) {
+	if(correct < 5) {
 		range = 2;
 	}
 
-	if (correct > 5 && correct < 8) {
+	if (correct < 8) {
 		range = 1;
 	}
 
-	if (correct > 8) {
+	if (correct > 7) {
 		range = 0;
 	}
 
