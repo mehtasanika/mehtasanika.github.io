@@ -1,5 +1,5 @@
 body {
-	font-family: 'Avenir';
+	font-family: 'Avenir Next';
 	text-align: center;
 }
 
@@ -11,13 +11,13 @@ img {
 	text-align: center;
 }
 
-#mc {
-	font-size: 16pt;
-}
-
 p {
 	font-size: 20pt;
-	margin-top: 200px;
+	margin-top: 150px;
+}
+
+input[type="text"] {
+	font-size: 20px;
 }
 
 h1 {
@@ -26,7 +26,6 @@ h1 {
 
 #quiz {
 	background: #E8E8E8;
-	height: 350px;
 }
 
 #button {
