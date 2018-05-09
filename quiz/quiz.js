@@ -48,14 +48,14 @@ var correct = 0;
 		correct ++;
 	}
 
-var messages = ["Great job!", "That's just okay!", "Do you even go to this school?"];
+var messages = ["You really know your school!", "Come on! You can do better than that!", "Do you even go to this school?"];
 
 var range;
-	if(correct < 3) {
+	if(correct < 4) {
 		range = 2;
 	}
 
-	if (correct > 0 && correct < 5) {
+	if (correct > 5 && correct < 8) {
 		range = 1;
 	}
 
@@ -66,6 +66,6 @@ var range;
 document.getElementById("after_submit").style.visibility = "visible";
 
 document.getElementById("message").innerHTML = messages[range];
-document.getElementById("number_correct").innerHTML = "You got " +  correct +  " correct";
+document.getElementById("number_correct").innerHTML = "You got " +  correct +  " correct!";
 
 }
